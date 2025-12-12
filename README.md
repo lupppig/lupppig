@@ -1,7 +1,13 @@
-# 👋 Hi there, I’m Cu pid
+# 👋 Hey, I’m Ka zie
 
-## About Me  
+I byte off more than I can code.  
 
-I’m a backend-focused software engineer passionate about designing and building scalable ⚡ high-performance systems. My expertise spans distributed architectures, real-time messaging 💬, API optimization, and AI integrations 🤖. I work primarily with Go and Python 🐍, leveraging tools like gRPC, PostgreSQL 🐘, Elasticsearch, RabbitMQ 🐇, Redis, Docker 🐳, and AWS ☁️ to deliver robust, reliable solutions.  
+Mostly I build **backend stuff** that just works
 
-I thrive on solving complex technical challenges 🧠, from reducing latency in high-volume applications to architecting microservices that handle millions of requests seamlessly. Beyond code, I care deeply about maintainability, developer experience 💡, and shipping software that makes a measurable impact 🚀.  
+
+- I make APIs fast enough that users forget they’re waiting.  
+- I automate things people pay me to sit and do.  
+- I deploy stuff, watch it survive, then take a coffee break.  
+
+
+> **Always array your thoughts before looping**
