@@ -2,7 +2,7 @@
 
 💻 Backend engineer focused on building reliable, scalable systems.
 
-I enjoy working close to the core of systems — concurrency, data flow, and infrastructure — and I’m especially interested in **event-driven** and **distributed architectures**.
+I enjoy working close to the core of systems and I’m especially interested in **event-driven** and **distributed architectures**.
 
 ---
 
