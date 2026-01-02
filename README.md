@@ -1,13 +1,49 @@
-# 👋 Hey, I’m Ka zie
+# Hi, I’m Kelani 👋
 
-I byte off more than I can code.  
+💻 Backend engineer focused on building reliable, scalable systems.
 
-Mostly I build **backend stuff** that just works
+I enjoy working close to the core of systems — concurrency, data flow, and infrastructure — and I’m especially interested in **event-driven** and **distributed architectures**.
 
+---
 
-- I make APIs fast enough that users forget they’re waiting.  
-- I automate things people pay me to sit and do.  
-- I deploy stuff, watch it survive, then take a coffee break.  
+## 🛠️ Tech Stack
 
+### 💬 Languages
+- 🟦 **Go (Golang)**
+- 🐍 **Python**
+- ⚙️ **C**
 
-> **Always array your thoughts before looping**
+### 🗄️ Databases & Storage
+- 🐘 **PostgreSQL**
+- 🐬 **MySQL**
+- 🔥 **Redis**
+- 🍃 **MongoDB**
+- 🔎 **Elasticsearch**
+
+### 🧩 Architecture & Systems
+- 📡 Event-driven architecture  
+- ⚡ Concurrent and asynchronous systems  
+- 📬 Message queues & background workers  
+- 🌐 API design (REST)  
+- 📊 Data modeling & performance optimization  
+
+---
+
+## 🔍 What I Care About
+- ✨ Writing simple, readable, and maintainable backend code  
+- 📈 Designing systems that scale under load  
+- 🧪 Observability, correctness, and failure handling  
+- 🧠 Learning how things work under the hood  
+
+---
+
+## 🚀 Currently Exploring
+- 🌍 Distributed systems patterns  
+- 🔁 Backpressure, retries, and fault tolerance  
+- 🚄 High-throughput services in Go  
+
+---
+
+## 📫 Let’s Connect
+- 💼 LinkedIn: [Darasimi](https://www.linkedin.com/in/kelani-darasimi/)
+
