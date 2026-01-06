@@ -1,8 +1,7 @@
 
 # Hello there 👋
 
-I’m Darasimi, a backend engineer passionate about distributed systems and real-time te
-
+# I Am  Darasimi
 ---
 
 [![4k wallpaper](https://4kwallpapers.com/images/walls/thumbs_3t/13925.jpg)](https://4kwallpapers.com/images/walls/thumbs_3t/13925.jpg)
