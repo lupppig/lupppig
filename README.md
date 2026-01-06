@@ -1,7 +1,10 @@
 
-# Hello there
+# Hello there 👋
 
-# I am Darasimi and I'd like you to go through this thanks...
+I’m Darasimi, a backend engineer passionate about distributed systems and real-time te
+
+---
+
 [![4k wallpaper](https://4kwallpapers.com/images/walls/thumbs_3t/13925.jpg)](https://4kwallpapers.com/images/walls/thumbs_3t/13925.jpg)
 
 ## 🌱 What I’m Learning
