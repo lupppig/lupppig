@@ -1,7 +1,7 @@
 
 # Hello there 👋
 
-# I Am  Darasimi
+# Hi i'm  Darasimi
 ---
 
 [![4k wallpaper](https://4kwallpapers.com/images/walls/thumbs_3t/13925.jpg)](https://4kwallpapers.com/images/walls/thumbs_3t/13925.jpg)
