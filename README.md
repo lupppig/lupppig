@@ -13,7 +13,7 @@ Hello there 👋
 
 ## 🎧 Fun Stuff
 - I love music and discovering new sounds  
-- Favorite genres: Afrobeats, R&B, Indie  
+- Favorite genres: Afrobeats, R&B, Hip-Hop  
 - I enjoy reading about how big systems like WhatsApp & Telegram work
 
 
