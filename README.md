@@ -7,11 +7,8 @@
 |  // current_focus                                                     |
 +-----------------------------------------------------------------------+
 |                                                                       |
-|      _  _                  > Scaling backend microservices with Go    |
-|    (      )                > Deep diving into Event-Driven Systems    |
-|  (          )                                                         |
-| (            )             [ CLOUD_ARCHITECTURE_V.2.0 ]               |
-|  ( _  _  _  )                                                         |
+|  > Scaling backend microservices with Go                              |
+|  > Deep diving into Event-Driven Architectures                        |
 |                                                                       |
 +-----------------------------------------------------------------------+
 ```
