@@ -59,9 +59,9 @@
         <text y="60" class="text"><tspan class="accent">Uptime   </tspan> 3 days, 14 hours, 21 mins</text>
         <text y="80" class="text"><tspan class="accent">Packages </tspan> 1422 (dpkg), 12 (flatpak)</text>
         <text y="100" class="text"><tspan class="accent">Shell    </tspan> zsh 5.9</text>
-        <text y="120" class="text"><tspan class="accent">CPU      </tspan> AMD EPYC (8) @ 2.800GHz</text>
-        <text y="140" class="text"><tspan class="accent">Memory   </tspan> 4096MiB / 16384MiB</text>
-        <text y="160" class="text"><tspan class="accent">Network  </tspan> 10Gbps Fiber-Optic Sync</text>
+        <text y="120" class="text"><tspan class="accent">LATENCY  </tspan> 1.40ms (p99 Edge-Sync)</text>
+        <text y="140" class="text"><tspan class="accent">SCALING  </tspan> K8s Auto-Node (24x)</text>
+        <text y="160" class="text"><tspan class="accent">TRAFFIC  </tspan> 1.2M Edge-Concurrent</text>
         <text y="180" class="text"><tspan class="accent">Role     </tspan> <tspan class="success">Backend &amp; Distributed Architect</tspan></text>
       </g>
       
