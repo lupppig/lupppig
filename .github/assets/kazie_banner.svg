@@ -37,9 +37,7 @@
         <text y="60" class="t"><tspan class="a">Input    </tspan> GO | Python | TypeScript | C</text>
         <text y="80" class="t"><tspan class="a">Ping     </tspan> Low (unless it's Monday)</text>
         <text y="100" class="t"><tspan class="a">Growth   </tspan> Auto-scaling enabled</text>
-        <text y="120" class="t"><tspan class="a">OS       </tspan> Debian 13 (Trixie)</text>
-        <text y="140" class="t"><tspan class="a">Shell    </tspan> zsh-CLI 5.9</text>
-        <text y="160" class="t"><tspan class="a">Status   </tspan> <tspan class="s">Hyper-active [Online]</tspan></text>
+        <text y="120" class="t"><tspan class="a">Status   </tspan> <tspan class="s">Hyper-active [Online]</tspan></text>
       </g>
       <g transform="translate(0, 230)">
         <text y="0" class="d" font-size="10px">RESOURCES_SYNCHRONIZED:</text>
