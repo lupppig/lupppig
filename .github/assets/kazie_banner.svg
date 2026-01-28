@@ -15,7 +15,7 @@
   <g transform="translate(15, 12)">
     <circle cx="0" cy="5" r="5" fill="#FF5F56"/><circle cx="20" cy="5" r="5" fill="#FFBD2E"/><circle cx="40" cy="5" r="5" fill="#27C93F"/>
   </g>
-  <text x="425" y="22" text-anchor="middle" class="t l" font-size="12px">dara@dist-sys: /ka-branding</text>
+  <text x="425" y="22" text-anchor="middle" class="t l" font-size="12px">darasimi@kazie: ~</text>
   <g transform="translate(40, 100)">
     <!-- KA ASCII LOGO -->
     <text class="a p" style="font-size: 16px; font-weight: bold;" xml:space="preserve">
@@ -25,21 +25,21 @@
       <tspan x="0" dy="18">  ██╔═██╗     ██╔══██║</tspan>
       <tspan x="0" dy="18">  ██║  ██╗    ██║  ██║</tspan>
       <tspan x="0" dy="18">  ╚═╝  ╚═╝    ╚═╝  ╚═╝</tspan>
-      <tspan x="0" dy="36" class="d" font-size="10px">[ INITIALIZING BRAND_IDENTITY... ]</tspan>
+      <tspan x="0" dy="36" class="d" font-size="10px">[ SYSTEM_READY ]</tspan>
     </text>
     <g transform="translate(260, 5)">
-      <text y="0" class="a" font-size="16px" font-weight="bold">darasimi@ka-lifa</text>
+      <text y="0" class="a" font-size="16px" font-weight="bold">darasimi@kazie</text>
       <text y="10" class="d">------------------</text>
       <g transform="translate(0, 35)">
-        <text y="0" class="t"><tspan class="a">OS       </tspan> Debian GNU/Linux 13 (Trixie)</text>
-        <text y="20" class="t"><tspan class="a">HOST     </tspan> Ka-Edge-Cluster-Node</text>
-        <text y="40" class="t"><tspan class="a">KERNEL   </tspan> 6.1.0-21-Ka-OS</text>
-        <text y="60" class="t"><tspan class="a">UPTIME   </tspan> 3 days, 15 hours, 42 mins</text>
-        <text y="80" class="t"><tspan class="a">SHELL    </tspan> zsh-Ka-Prompt 5.9</text>
-        <text y="100" class="t"><tspan class="a">LATENCY  </tspan> 1.25ms (p99 optimized)</text>
-        <text y="120" class="t"><tspan class="a">SCALING  </tspan> K8s-Auto (32x Workers)</text>
-        <text y="140" class="t"><tspan class="a">TRAFFIC  </tspan> 2.4M Persistent Conn</text>
-        <text y="160" class="t"><tspan class="a">ROLE     </tspan> <tspan class="s">Core Distributed Architect</tspan></text>
+        <text y="0" class="t"><tspan class="a">Kernel   </tspan> Human 2.0.26</text>
+        <text y="20" class="t"><tspan class="a">Node     </tspan> Lagos, Nigeria</text>
+        <text y="40" class="t"><tspan class="a">Runtime  </tspan> 20 Years</text>
+        <text y="60" class="t"><tspan class="a">Input    </tspan> GO | Python | TypeScript | C</text>
+        <text y="80" class="t"><tspan class="a">Ping     </tspan> Low (unless it's Monday)</text>
+        <text y="100" class="t"><tspan class="a">Growth   </tspan> Auto-scaling enabled</text>
+        <text y="120" class="t"><tspan class="a">OS       </tspan> Debian 13 (Trixie)</text>
+        <text y="140" class="t"><tspan class="a">Shell    </tspan> zsh-CLI 5.9</text>
+        <text y="160" class="t"><tspan class="a">Status   </tspan> <tspan class="s">Hyper-active [Online]</tspan></text>
       </g>
       <g transform="translate(0, 230)">
         <text y="0" class="d" font-size="10px">RESOURCES_SYNCHRONIZED:</text>
@@ -49,6 +49,6 @@
     </g>
   </g>
   <line x1="1" y1="440" x2="849" y2="440" stroke="#30363D" stroke-width="1"/>
-  <text x="40" y="462" class="t">&gt; ka_sys: ~/branding$ <tspan class="d">tail -f profile.log</tspan></text>
+  <text x="40" y="462" class="t">&gt; darasimi@kazie: ~$ <tspan class="d">tail -f evolution.log</tspan></text>
   <text x="320" y="462" class="c">█</text>
 </svg>
