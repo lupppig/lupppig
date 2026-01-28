@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/kazie_banner.svg" alt="Darasimi's Terminal" width="100%">
+  <img src=".github/assets/kazie_v2.svg" alt="Darasimi's Terminal" width="100%">
 </div>
 
 ```bash
