@@ -1,0 +1,91 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="420" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  
+  <style>
+    .ascii { fill: #1F2937; font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; font-size: 11px; }
+    .highlight { fill: #58A6FF; }
+    .terminal-text { fill: #C9D1D9; font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; font-size: 13px; }
+    .success { fill: #3FB950; }
+    .header-text { fill: #8B949E; font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; font-size: 12px; }
+    
+    @keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+    .cursor { animation: blink 1s infinite; fill: #58A6FF; }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .flicker { animation: flicker 3s infinite; }
+
+    .pulse { fill: #58A6FF; }
+  </style>
+
+  <!-- Terminal Controls -->
+  <circle cx="25" cy="25" r="6" fill="#FF5F56" />
+  <circle cx="45" cy="25" r="6" fill="#FFBD2E" />
+  <circle cx="65" cy="25" r="6" fill="#27C93F" />
+  <text x="400" y="30" text-anchor="middle" class="header-text">lupppig@backend-architecture: ~</text>
+
+  <!-- ASCII CLOUD ARCHITECTURE -->
+  <text x="560" y="70" class="ascii highlight flicker">
+      _  _
+    (      )
+  (          )
+ (            )
+  ( _  _  _  )
+  [ CLOUD_INFRA ]
+  </text>
+  
+  <!-- ASCII SERVERS -->
+  <text x="560" y="240" class="ascii">
+ [================]
+ [ [::]  [::]  [::] ]
+ [ [::]  [::]  [::] ]
+ [ [::]  [::]  [::] ]
+ [================]
+ [ DB_CLUSTER_01  ]
+  </text>
+
+  <!-- ASCII NODES -->
+  <text x="50" y="100" class="ascii highlight">
+  &lt;nodes&gt;
+  |-- hub_alpha [UP]
+  |   |-- worker_v1
+  |   `-- worker_v2
+  |-- hub_beta  [UP]
+  `-- gateway_proxy
+  </text>
+  
+  <!-- TERMINAL OUTPUT -->
+  <g transform="translate(50, 260)">
+    <text y="0" class="terminal-text">&gt; system.init() ................. [ <tspan class="success">OK</tspan> ]</text>
+    <text y="25" class="terminal-text">&gt; data_mesh.connect(cloud_v1) ... [ <tspan class="success">OK</tspan> ]</text>
+    <text y="50" class="terminal-text">&gt; monitoring.active: true</text>
+    <text y="80" class="terminal-text">&gt; _<tspan class="cursor">█</tspan></text>
+  </g>
+
+  <!-- DYNAMIC DATA PATHS -->
+  <path id="path_one" d="M 220 120 Q 400 120 400 160 T 560 260" stroke="#161B22" stroke-width="1" fill="none" stroke-dasharray="2 4"/>
+  <path id="path_two" d="M 560 100 L 400 100 L 400 160 L 220 160" stroke="#161B22" stroke-width="1" fill="none" stroke-dasharray="2 4"/>
+  
+  <!-- DATA PULSES -->
+  <circle r="3" class="pulse">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#path_one"/>
+    </animateMotion>
+  </circle>
+  
+  <circle r="2" class="pulse" opacity="0.6">
+    <animateMotion dur="4s" begin="2s" repeatCount="indefinite">
+      <mpath href="#path_one"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="2.5" class="pulse" fill="#3FB950">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <mpath href="#path_two"/>
+    </animateMotion>
+  </circle>
+
+  <line x1="0" y1="50" x2="800" y2="50" stroke="#30363D" stroke-width="1" />
+</svg>
