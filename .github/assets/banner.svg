@@ -1,85 +1,63 @@
 <svg width="850" height="480" viewBox="0 0 850 480" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="850" height="480" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-  
   <style>
-    .text { fill: #C9D1D9; font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; font-size: 13px; line-height: 1.5; }
-    .label { fill: #8B949E; }
-    .accent { fill: #58A6FF; }
-    .success { fill: #3FB950; }
-    .dim { fill: #484F58; }
-    
-    @keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
-    .cursor { animation: blink 1s infinite; fill: #58A6FF; }
-
-    @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
-    .pulse { animation: pulse 3s infinite; }
+    .t { fill: #C9D1D9; font-family: ui-monospace,monospace; font-size: 13px; }
+    .l { fill: #8B949E; }
+    .a { fill: #58A6FF; }
+    .s { fill: #3FB950; }
+    .d { fill: #484F58; }
+    @keyframes b { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+    .c { animation: b 1s infinite; fill: #58A6FF; }
+    @keyframes p { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+    .p { animation: p 3s infinite; }
   </style>
-
-  <!-- Title Bar -->
   <rect width="850" height="35" rx="10" fill="#161B22"/>
   <g transform="translate(15, 12)">
-    <circle cx="0" cy="5" r="5" fill="#FF5F56"/>
-    <circle cx="20" cy="5" r="5" fill="#FFBD2E"/>
-    <circle cx="40" cy="5" r="5" fill="#27C93F"/>
+    <circle cx="0" cy="5" r="5" fill="#FF5F56"/><circle cx="20" cy="5" r="5" fill="#FFBD2E"/><circle cx="40" cy="5" r="5" fill="#27C93F"/>
   </g>
-  <text x="425" y="22" text-anchor="middle" class="text label" font-size="12px">dara@distributed-debian: ~</text>
-
-  <!-- Andrew6rant-Inspired Layout -->
-  <g transform="translate(40, 70)">
-    <!-- Large ASCII Debian-esque Logo -->
-    <text x="0" y="0" class="accent pulse" xml:space="preserve" style="font-size: 10px; font-weight: bold;">
-       _,met$$$$$gg.
-    ,g$$$$$$$$$$$$$$$P.
-  ,g$$P"     """""Y$$.".
- ,$$P'              `$$$.
-',$$P       ,ggs.     `$$b:
-`d$$'     ,$P"'   .    $$$
- $$P      d$'     ,    $$P
- $$:      $$.   -    ,d$$'
- $$;      Y$b._   _,d$P'
- Y$$.    `.`"Y$$$$P"'
- `$$b      "-.__
-  `Y$$
-   `Y$$.
-     `$$b.
-       `Y$$$b.
-          `"Y$b._
-              `"Y"
+  <text x="425" y="22" text-anchor="middle" class="t l" font-size="12px">dara@distributed-debian: ~</text>
+  <g transform="translate(40, 85)">
+    <text class="a p" style="font-size: 10px; font-weight: bold;" xml:space="preserve">
+      <tspan x="0" dy="0">       _,met$$$$$gg.</tspan>
+      <tspan x="0" dy="12">    ,g$$$$$$$$$$$$$$$P.</tspan>
+      <tspan x="0" dy="12">  ,g$$P&quot;     &quot;&quot;&quot;&quot;&quot;Y$$.&quot;.</tspan>
+      <tspan x="0" dy="12"> ,$$P'              `$$$.</tspan>
+      <tspan x="0" dy="12">',$$P       ,ggs.     `$$b:</tspan>
+      <tspan x="0" dy="12">`d$$'     ,$P&quot;'   .    $$$</tspan>
+      <tspan x="0" dy="12"> $$P      d$'     ,    $$P</tspan>
+      <tspan x="0" dy="12"> $$:      $$.   -    ,d$$'</tspan>
+      <tspan x="0" dy="12"> $$;      Y$b._   _,d$P'</tspan>
+      <tspan x="0" dy="12"> Y$$.    `.`&quot;Y$$$$P&quot;'</tspan>
+      <tspan x="0" dy="12"> `$$b      &quot;-.__</tspan>
+      <tspan x="0" dy="12">  `Y$$</tspan>
+      <tspan x="0" dy="12">   `Y$$.</tspan>
+      <tspan x="0" dy="12">     `$$b.</tspan>
+      <tspan x="0" dy="12">       `Y$$$b.</tspan>
+      <tspan x="0" dy="12">          `&quot;Y$b._</tspan>
+      <tspan x="0" dy="12">              `&quot;Y&quot;</tspan>
     </text>
-
-    <!-- System Info Grid (The Variable List) -->
-    <g transform="translate(260, 10)">
-      <text y="0" class="accent" font-size="16px" font-weight="bold">darasimi@debian-13</text>
-      <text y="10" class="dim">------------------</text>
-      
+    <g transform="translate(260, 5)">
+      <text y="0" class="a" font-size="16px" font-weight="bold">darasimi@debian-13</text>
+      <text y="10" class="d">------------------</text>
       <g transform="translate(0, 35)">
-        <text y="0" class="text"><tspan class="accent">OS       </tspan> Debian GNU/Linux 13 (Trixie)</text>
-        <text y="20" class="text"><tspan class="accent">Host     </tspan> Distributed-Nodes-Cluster-v2</text>
-        <text y="40" class="text"><tspan class="accent">Kernel   </tspan> 6.1.0-21-amd64</text>
-        <text y="60" class="text"><tspan class="accent">Uptime   </tspan> 3 days, 14 hours, 21 mins</text>
-        <text y="80" class="text"><tspan class="accent">Packages </tspan> 1422 (dpkg), 12 (flatpak)</text>
-        <text y="100" class="text"><tspan class="accent">Shell    </tspan> zsh 5.9</text>
-        <text y="120" class="text"><tspan class="accent">LATENCY  </tspan> 1.40ms (p99 Edge-Sync)</text>
-        <text y="140" class="text"><tspan class="accent">SCALING  </tspan> K8s Auto-Node (24x)</text>
-        <text y="160" class="text"><tspan class="accent">TRAFFIC  </tspan> 1.2M Edge-Concurrent</text>
-        <text y="180" class="text"><tspan class="accent">Role     </tspan> <tspan class="success">Backend &amp; Distributed Architect</tspan></text>
+        <text y="0" class="t"><tspan class="a">OS       </tspan> Debian GNU/Linux 13 (Trixie)</text>
+        <text y="20" class="t"><tspan class="a">Host     </tspan> Distributed-Nodes-Cluster-v2</text>
+        <text y="40" class="t"><tspan class="a">Kernel   </tspan> 6.1.0-21-amd64</text>
+        <text y="60" class="t"><tspan class="a">Uptime   </tspan> 3 days, 14 hours, 21 mins</text>
+        <text y="80" class="t"><tspan class="a">Shell    </tspan> zsh 5.9</text>
+        <text y="100" class="t"><tspan class="a">LATENCY  </tspan> 1.40ms (p99 Edge-Sync)</text>
+        <text y="120" class="t"><tspan class="a">SCALING  </tspan> K8s Auto-Node (24x)</text>
+        <text y="140" class="t"><tspan class="a">TRAFFIC  </tspan> 1.2M Edge-Concurrent</text>
+        <text y="160" class="t"><tspan class="a">Role     </tspan> <tspan class="s">Backend &amp; Distributed Architect</tspan></text>
       </g>
-      
-      <!-- Tech Skill Badges in ASCII -->
-      <g transform="translate(0, 240)">
-        <text y="0" class="dim" font-size="10px">CORE_TECHNOLOGIES:</text>
-        <text y="25" class="text">
-          [ <tspan class="accent">Go</tspan> ] [ <tspan class="accent">C</tspan> ] [ <tspan class="accent">Python</tspan> ] [ <tspan class="accent">TS</tspan> ] [ <tspan class="accent">Postgres</tspan> ]
-        </text>
-        <text y="45" class="text">
-          [ <tspan class="success">Redis</tspan> ] [ <tspan class="success">Kafka</tspan> ] [ <tspan class="success">AWS</tspan> ] [ <tspan class="success">Docker</tspan> ] [ <tspan class="success">Nginx</tspan> ]
-        </text>
+      <g transform="translate(0, 230)">
+        <text y="0" class="d" font-size="10px">CORE_TECHNOLOGIES:</text>
+        <text y="20" class="t">[ <tspan class="a">Go</tspan> ] [ <tspan class="a">C</tspan> ] [ <tspan class="a">Python</tspan> ] [ <tspan class="a">TS</tspan> ] [ <tspan class="a">Postgres</tspan> ]</text>
+        <text y="40" class="t">[ <tspan class="s">Redis</tspan> ] [ <tspan class="s">Kafka</tspan> ] [ <tspan class="s">AWS</tspan> ] [ <tspan class="s">Docker</tspan> ] [ <tspan class="s">Nginx</tspan> ]</text>
       </g>
     </g>
   </g>
-
-  <!-- Bottom Command Bar -->
   <line x1="1" y1="440" x2="849" y2="440" stroke="#30363D" stroke-width="1"/>
-  <text x="40" y="462" class="text">&gt; dara_@debian: ~/portfolio$ <tspan class="dim">tail -f system.log</tspan></text>
-  <text x="320" y="462" class="cursor">█</text>
+  <text x="40" y="462" class="t">&gt; dara_@debian: ~/portfolio$ <tspan class="d">tail -f system.log</tspan></text>
+  <text x="320" y="462" class="c">█</text>
 </svg>
