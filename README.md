@@ -29,6 +29,5 @@ I work primarily with these technologies to build and scale production applicati
 
 ### 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelani-darasimi/) 
 [![X](https://img.shields.io/badge/X-%23000000.svg?style=flat&logo=X&logoColor=white)](https://x.com/taffffffffik)
 [![Mail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kelanidarasimi9@gmail.com)
