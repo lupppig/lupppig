@@ -25,9 +25,3 @@ I work primarily with these technologies to build and scale production applicati
 *   🔭 Deep diving into **Event-Driven Architectures** and distributed systems
 *   💬 Open to discussions about system design, backend architectures, or new career opportunities!
 
----
-
-### 📫 Let's Connect
-
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=flat&logo=X&logoColor=white)](https://x.com/taffffffffik)
-[![Mail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kelanidarasimi9@gmail.com)
